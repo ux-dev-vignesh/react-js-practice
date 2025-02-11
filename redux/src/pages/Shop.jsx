@@ -1,9 +1,8 @@
-const AppFooter=()=>{
+const Shop=()=>{
     return(
         <>
-
         </>
     )
 }
 
-export default AppFooter
+export default Shop;
