@@ -18,7 +18,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const pages = [
-    { name: "Home", path: "/" },
+    { name: "Home", path: "/home" },
     { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Contact", path: "/contact" },

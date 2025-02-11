@@ -8,7 +8,7 @@ const ErrorPage=()=>{
 
     useEffect(()=>{
         const timer=setTimeout(()=>{
-            navigate('/');
+            navigate('/home');
         },10000);
 
         return()=>clearTimeout(timer);
@@ -19,7 +19,7 @@ const ErrorPage=()=>{
         <p>404</p>
         <p>oops! page not found</p>
         
-        <Button onClick={()=>{navigate("/")}}>Go Back Home</Button>
+            <Button onClick={() => { navigate("/home") }}>Go Back Home</Button>
         </>
     )
 }
